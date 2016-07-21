@@ -1,0 +1,68 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+md-primary {
+    background: #009688;
+    color: white;
+}
+
+md-sidenav {
+    width: 300px;
+}
+
+md-sidenav-layout {
+    background: rgba(0, 0, 0, 0.03);
+}
+
+md-list-item a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #363636;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.form {
+    display: flex;
+}
+
+.form md-card {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+md-card {
+    width: 400px;
+    box-sizing: border-box;
+    margin: 16px;
+}
+
+.view-title {
+    font-size: 14px;
+}
+
+md-input {
+    margin: 8px 0;
+    width: 100%;
+}
+
+.actions {
+    padding: 15px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.employee md-card{
+    width: 350px;
+}
+
+.employee md-card-title{
+    font-weight: 700;
+}
+

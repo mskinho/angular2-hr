@@ -1,0 +1,29 @@
+<md-sidenav-layout fullscreen>
+
+    <!-- display sidenav -->
+    <md-sidenav #sidenav>
+        <md-list>
+            <md-list-item>
+                <h3 md-line><a [routerLink]="['/departments']"> <md-icon fontSet="fa" fontIcon="fa-sitemap"></md-icon> Department</a></h3>
+                <p md-line><span>Manage department in company</span></p>
+            </md-list-item>
+            <md-list-item>
+                <h3 md-line><a [routerLink]="['/employees']"> <md-icon fontSet="fa" fontIcon="fa-users"></md-icon> Employee</a></h3>
+                <p md-line><span>Manage employee in company</span></p>
+            </md-list-item>
+        </md-list>
+    </md-sidenav>
+
+    <!-- display toolbar -->
+    <md-toolbar color="primary" class="md-primary">
+        <button md-icon-button (click)="sidenav.open()">
+            <md-icon>menu</md-icon>
+        </button>
+        Human Resource
+    </md-toolbar>
+
+    <!-- router -->
+    <router-outlet></router-outlet>
+
+</md-sidenav-layout>
+

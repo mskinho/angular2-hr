@@ -1,0 +1,30 @@
+<div class="actions">
+    <button md-mini-fab (click)="formShowing=!formShowing">
+        <md-icon class="md-24">add</md-icon>
+    </button>
+</div>
+<div class="form" *ngIf="formShowing">
+    <md-card>
+        <md-card-title>{{formTitle}}</md-card-title>
+        <md-card-content>
+            <form>
+                <md-input [(ngModel)]="department.name" name="name" placeholder="Name"></md-input>
+            </form>
+        </md-card-content>
+        <md-card-actions align="end">
+            <button md-raised-button color="warn" (click)="closeForm()">CANCEL</button>
+            <button md-raised-button color="primary" (click)="save()">SAVE</button>
+        </md-card-actions>
+    </md-card>
+</div>
+<div class="card-container">
+    <md-card *ngFor="let department of departments">
+        <md-card-title>
+            <md-icon fontSet="fa" fontIcon="fa-sitemap"></md-icon> {{department.name}}</md-card-title>
+        <md-card-button>
+            <button md-button (click)="getDetail(department)">Details</button>
+            <button md-button (click)="deleteDepartment(department)">Delete</button>
+            <button md-button (click)="goToEmpOfDep(department)">Employee</button>
+        </md-card-button>
+    </md-card>
+</div>

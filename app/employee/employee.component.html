@@ -1,0 +1,11 @@
+<div class="employee">
+    <div class="card-container">
+        <md-card *ngFor="let emp of employees">
+            <md-card-header>
+                <img md-card-avatar src="/uploads/avatars/{{emp.avatar}}">
+                <md-card-title>{{emp.firstName}} {{emp.lastName}} {{emp.middleName}}</md-card-title>
+                <md-card-subtitle>{{emp.jobTitle}}</md-card-subtitle>
+            </md-card-header>
+        </md-card>
+    </div>
+</div>
