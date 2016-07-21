@@ -4,7 +4,7 @@ This is a example to manage department and user by using Angular 2 and TypeScrip
 ### Technologies: ###
 
 * Angular 2
-* Angular 2 Material
+* Angular Material 2
 * TypeScript
 
 ### How to install it ? ###
