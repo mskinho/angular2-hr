@@ -1,4 +1,4 @@
-# Simple-Human-Resource
+# Angular 2 - Human Resource
 This is a example to manage department and user by using Angular 2 and TypeScript.
 
 ### Technologies: ###
