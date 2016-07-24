@@ -1,7 +1,7 @@
 # Angular 2 - Human Resource
 This is a example to manage department and user by using Angular 2 and TypeScript.
 
-Link demo: [https://angular2-hr-477e5.firebaseapp.com](https://angular2-hr-477e5.firebaseapp.com)
+Link demo: https://angular2-hr.firebaseapp.com/](https://angular2-hr.firebaseapp.com/)
 
 ### Technologies: ###
 
